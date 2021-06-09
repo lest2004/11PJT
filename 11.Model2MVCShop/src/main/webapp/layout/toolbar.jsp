@@ -10,7 +10,7 @@
 	
 	<div class="container">
 	       
-		<a class="navbar-brand" href="/index.jsp">Model2 MVC Shop</a>
+		<a class="navbar-brand" href="/index.jsp">다있소 쇼핑몰</a>
 		
 		<!-- toolBar Button Start //////////////////////// -->
 		<div class="navbar-header">
@@ -124,4 +124,18 @@
 			$(self.location).attr("href","/user/getUser?userId=${sessionScope.user.userId}");
 		});
 		
+		
+		//=============  판매상품등록 Event 처리 =================
+		$(function(){
+			$("a:contains('판매상품등록')").on("click" , function(){
+				self.location = "/product/addProduct"
+			});	
+		});
+		
+		//============= 판매상품관리 Event 처리 =================
+		$(function(){
+			$("a:contains('판매상품관리')").on("click" , function(){
+				self.location = "/product/listProduct"
+			});	
+		});
 	</script>  

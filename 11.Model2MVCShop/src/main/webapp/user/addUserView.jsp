@@ -161,7 +161,7 @@
 	<!-- ToolBar Start /////////////////////////////////////-->
 	<div class="navbar  navbar-default">
         <div class="container">
-        	<a class="navbar-brand" href="/index.jsp">Model2 MVC Shop</a>
+        	<a class="navbar-brand" href="/index.jsp">다있소 쇼핑몰</a>
    		</div>
    	</div>
    	<!-- ToolBar End /////////////////////////////////////-->
@@ -204,7 +204,7 @@
 		  <div class="form-group">
 		    <label for="userName" class="col-sm-offset-1 col-sm-3 control-label">이름</label>
 		    <div class="col-sm-4">
-		      <input type="password" class="form-control" id="userName" name="userName" placeholder="회원이름">
+		      <input type="text" class="form-control" id="userName" name="userName" placeholder="회원이름">
 		    </div>
 		  </div>
 		  

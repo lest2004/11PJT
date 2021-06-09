@@ -24,6 +24,10 @@
         	border: 3px solid #D6CDB7;
             margin-top: 10px;
         }
+        
+        div.img{
+        	object-fit: cover;
+        }
     </style>
     
     <!--  ///////////////////////// JavaScript ////////////////////////// -->
@@ -73,7 +77,7 @@
 	<!-- ToolBar Start /////////////////////////////////////-->
 	<div class="navbar  navbar-default">
         <div class="container">
-        	<a class="navbar-brand" href="/index.jsp">Model2 MVC Shop</a>
+        	<a class="navbar-brand" href="/index.jsp">¥Ÿ¿÷º“ ºÓ«Œ∏Ù</a>
    		</div>
    	</div>
    	<!-- ToolBar End /////////////////////////////////////-->	
@@ -84,7 +88,8 @@
 		<div class="row">
 		
 			<div class="col-md-6">
-					<img src="/images/logo-spring.png" class="img-rounded" width="100%" />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="https://img.te31.com/i/ea7c836/thumb" width="80%"/>
 			</div>
 	   	 	
 	 	 	<div class="col-md-6">
