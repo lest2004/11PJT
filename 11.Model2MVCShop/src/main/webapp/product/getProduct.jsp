@@ -43,6 +43,13 @@
 				});
 		});
 		
+		 $(function() {
+			   //==> DOM Object GET 3가지 방법 ==> 1. $(tagName) : 2.(#id) : 3.$(.className)
+			   $( ".btn:contains('확')" ).on("click" , function() {
+			      self.location = "/product/listProduct"
+			   });
+			});
+		
 	</script>
 	
 </head>
@@ -105,6 +112,7 @@
 		<div class="row">
 	  		<div class="col-md-12 text-center ">
 	  			<button type="button" class="btn btn-primary">제품정보수정</button>
+	  			<a class="btn btn-primary btn" href="#" role="button">확&nbsp;인</a>
 	  		</div>
 		</div>
 		
