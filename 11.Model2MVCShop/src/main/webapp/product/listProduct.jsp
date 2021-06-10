@@ -144,7 +144,7 @@
 		<tr class="ct_list_pop">
 			<td align="left">${ i }</td>
 			<td align="left" ><a href="/product/getProduct?prodNo=${product.prodNo}&menu=${menu}">${product.prodName}</a></td>
-			<td align="left">${product.price}</td>
+			<td align="left">${product.price}¿ø</td>
 			<td align="left">${product.regDate}</td>		
 		</tr>
 	</c:forEach>

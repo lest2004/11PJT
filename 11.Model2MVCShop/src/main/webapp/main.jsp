@@ -34,6 +34,13 @@
            
         }
         
+        carousel > .item > img {
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 380px;
+    } 
+        
    	</style>
    	
      <!--  ///////////////////////// JavaScript ////////////////////////// -->

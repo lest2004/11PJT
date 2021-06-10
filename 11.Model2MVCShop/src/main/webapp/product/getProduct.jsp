@@ -97,7 +97,7 @@
 		
 		<div class="row">
 	  		<div class="col-xs-4 col-md-2 "><strong>°¡°Ý</strong></div>
-			<div class="col-xs-8 col-md-4">${product.price }</div>
+			<div class="col-xs-8 col-md-4">${product.price}¿ø</div>
 		</div>
 		
 		<hr/>
